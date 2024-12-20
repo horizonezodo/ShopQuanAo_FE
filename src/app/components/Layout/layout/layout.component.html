@@ -1,0 +1,6 @@
+<app-header *ngIf="showHeaderFooter" [showBackgroundData]="showBackground"></app-header>
+<app-slide *ngIf="showSlide"></app-slide>
+
+<router-outlet></router-outlet>
+
+<app-footer *ngIf="showHeaderFooter"></app-footer>
